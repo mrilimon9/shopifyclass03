@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    body{
+        font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    }
+
+*{
+    margin: 0%;
+    text-align: end;
+}
+    
+
+header {
+    background-color: #0e0d52;
+    overflow: hidden;
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;    
+}
+.logo img{
+    width: 150px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+nav{
+   width: 80%;
+   float: none;
+}   
+
+.manu{
+    list-style: none;
+  
+}
+.cart{
+    color: rgb(196, 194, 192);
+    
+    float: left;
+    display: flex;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+
+
+}
+nav ul li{
+    font-size: 17px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: #0e0d52;
+    background-color: ivory;
+}
+
+.cart a i{
+    color: rgb(156, 149, 149);
+    font-size: 25px;
+    padding: 25px;   
+}
+
+/* img{
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: #000;
+    margin-top: 20px;
+} */
+
+.banner{background: #0f225b;}
+
+.banner img{box-shadow: 0px 0px 8px 0px black;}
+
+.banner .container{
+    padding: 40px 0;
+    overflow: inherit;
+}
+
+.banner2{
+    width: 1200px;
+    background-color: #0f225b;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 400px;
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    box-shadow: 0px 0px 8px 0px #000;
+    /* margin-bottom: 1px; */
+}
+
+.banner2 .content{
+
+margin-left: auto;
+
+margin-right: auto;
+
+padding-top: 179px;
+
+padding-left: 155px;
+}
+.banner2 .pp .pict{
+    width: 288px;
+    height: 296px;
+    margin-right: 227px;
+    border: black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 1px #000;
+    margin-top: 50px;
+}
+.banner2 .content button a{
+    text-decoration: none;
+    color: #0F225B;
+    font-weight: 700;
+   
+}
+.banner2 .content button a:hover{
+    color: #0F225B;
+    background-color: white;
+}
+
+.about{
+    background-color: #0f225b;
+    /* margin-bottom: 2px; */
+    padding-bottom: 36px;
+}
+.banner2 .content .name{
+
+font-size: 26px;
+
+letter-spacing: 3px;
+
+font-weight: 900;
+}
+.banner2 .content .title{
+
+font-size: 18px;
+
+font-weight: 600;
+}
+footer .color{
+    padding: 26px;
+    height: 20px;
+    background-color: #5e5959;
+    color: #fcf9f9;
+}
+footer .color a{
+    text-decoration: none;
+    color: white;
+   
+}
+footer .color a:hover{
+    color: rgb(148, 147, 147);
+}
